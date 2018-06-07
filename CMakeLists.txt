@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 2.8)
+PROJECT(grainVolumeSensor)
+ADD_SUBDIRECTORY(src)
+ADD_SUBDIRECTORY(preProcessing)
+ADD_SUBDIRECTORY(calArea)
+ADD_SUBDIRECTORY(cal3dCoor)
+ADD_SUBDIRECTORY(serialSend)
